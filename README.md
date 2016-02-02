@@ -93,28 +93,17 @@ Information flow through social network
 
 @realdonaldtrump analysis
 
-| ----- |
-|
 
-Layout &nbsp; &nbsp; &nbsp; : Yifan Hu
+Layout         : Yifan Hu
+Node Size      : Betweenness Centrality
+Color          : Modularity Class
+Density        : 0.013
+Degree Range   : 6 - 1366
+Node           : 298
+Edges          : 1184
+Average Degree :  7.946
 
-Node Size &nbsp;: Betweenness Centrality
 
-Color &nbsp; &nbsp; &nbsp; &nbsp; : Modularity Class
-
-Density &nbsp; &nbsp; &nbsp;: 0.013
-
- |
-
-Degree Range &nbsp; &nbsp;:&nbsp;6 - 1366
-
-Node &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 298
-
-Edges &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: 1184
-
-Average Degree :&nbsp; 7.946
-
- |
 
 On January 18th, 2016, NodeXL was used to extract tweets with the keyword, 'RealDonaldTrump'. Limit of 10,000 tweets was set and a network was created with people who mentioned '@realdonaldtrump' in their tweets. The network was then loaded and visualized in Gephi. To remove users who are loosely bound in the network, nodes with degree range &lt; 6 were filtered to result in the above network. The directed edges between the nodes represent that the users mentioned each other or replied to each other in their tweets. The node size was adjusted as per the betweenness centrality and the color was set as per the modularity class.
 
@@ -134,28 +123,15 @@ The highest betweenness centrality is of Trump supporters who are responsible fo
 
 @hillaryclinton analysis
 
-| ----- |
-|
+Layout         : Yifan Hu
+Node Size      : Betweenness Centrality
+Color          : Modularity Class
+Density        : 0.011
+Degree Range   : 3 - 537
+Node           : 204
+Edges          : 474
+Average Degree : 4.64  
 
-Layout &nbsp; &nbsp; &nbsp;: Yifan Hu
-
-Node Size : Betweenness Centrality
-
-Color &nbsp; &nbsp; &nbsp; &nbsp;: Modularity Class
-
-Density &nbsp; &nbsp; : 0.011
-
- |
-
-Degree Range &nbsp; &nbsp;:&nbsp;3 - 537
-
-Node &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 204
-
-Edges &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: 474
-
-Average Degree : 4.64 &nbsp;
-
- |
 
 On January 18th, 2016, NodeXL was used to extract tweets with keyword, 'hillaryclinton'. Limit of 10,000 tweets was set and a network was created with people who mentioned '@hillaryclinton' in their tweets. The network was then loaded and visualized in Gephi. To remove users who are loosely bound in the network, nodes with degree range &lt; 3 were filtered to result in the above network. The directed edges between the nodes represent that the users mentioned each other or replied to each other in their tweets. The node size was adjusted as per the betweenness centrality and the color was set as per the modularity class.
 
@@ -177,28 +153,14 @@ Visualizing social network of politically active users
 
 #Trump2016 - Visualizing Donald Trump's Social Network
 
-| ----- |
-|
-
-Layout &nbsp; &nbsp; &nbsp; &nbsp;: Yifan Hu
-
-Node Size &nbsp; &nbsp;: Betweenness Centrality
-
-Color &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : Modularity Class
-
-Density &nbsp; &nbsp; &nbsp; &nbsp;: 0.073
-
- |
-
-Degree Range &nbsp; &nbsp;:&nbsp;10 - 557
-
-Node &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 402
-
-Edges &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: 11742
-
-Average Degree :&nbsp; 58.418
-
- |
+Layout        : Yifan Hu
+Node Size     : Betweenness Centrality
+Color         : Modularity Class
+Density       : 0.073
+Degree Range  : 10 - 557
+Node          : 402
+Edges         : 11742
+Average Degree:  58.418
 
 ![](http://rameshbalasekaran.com/FinalProject/images/image17.png)
 
@@ -254,28 +216,17 @@ As per the above egocentric network of Hillary Clinton, we can clearly see that 
 
 #Hillary2016 - Visualizing Hillary Clinton's Social Network
 
-| ----- |
-|
 
-Layout &nbsp; &nbsp; &nbsp; &nbsp;: Yifan Hu
+Layout         : Yifan Hu
+Node Size      : Betweenness Centrality
+Color          : Modularity Class
+Density        : 0.048
+Degree Range   : 10 - 492
+Node           : 452
+Edges          : 9767
+Average Degree : 43.217
 
-Node Size &nbsp; &nbsp;: Betweenness Centrality
 
-Color &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : Modularity Class
-
-Density &nbsp; &nbsp; &nbsp; &nbsp;: 0.048
-
- |
-
-Degree Range &nbsp; &nbsp;:&nbsp;10 - 492
-
-Node &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 452
-
-Edges &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: 9767
-
-Average Degree :&nbsp;43.217
-
- |
 
 ![](http://rameshbalasekaran.com/FinalProject/images/image06.png)
 
@@ -301,34 +252,9 @@ Sentiment Analysis:
 
 In our attempt to understand the public reaction garnered by Donald Trump and Hillary Clinton, we performed sentimental analysis in R using a few popular hashtags like #Trump2016 and #Hillary2016.
 
-| ----- |
-|
 
-![](http://rameshbalasekaran.com/FinalProject/images/image13.png)
-
- |
-
-![](http://rameshbalasekaran.com/FinalProject/images/image00.png)
-
- |
-|
-
-#Trump2016
-
- |
-
-#Hillary2016
-
- |
-|
-
-Fig. 18.
-
- |
-
-Fig. 19.
-
- |
+![](http://rameshbalasekaran.com/FinalProject/images/image13.jpg) ![](http://rameshbalasekaran.com/FinalProject/images/image00.jpg)
+#Trump2016 & #Hillary2016
 
 At first we collected 1500 tweets using Twitter API's and various packages in R. The tweets collected were then processed i.e. made ready for sentiment analysis by removing spaces, hyperlinks, punctuations and other unnecessary content. The final result is displayed in Fig. 18. and Fig. 19.
 
