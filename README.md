@@ -253,7 +253,8 @@ Sentiment Analysis:
 In our attempt to understand the public reaction garnered by Donald Trump and Hillary Clinton, we performed sentimental analysis in R using a few popular hashtags like #Trump2016 and #Hillary2016.
 
 
-![](http://rameshbalasekaran.com/FinalProject/images/image13.jpg) ![](http://rameshbalasekaran.com/FinalProject/images/image00.jpg)
+![](http://rameshbalasekaran.com/FinalProject/images/image13.jpg) 
+![](http://rameshbalasekaran.com/FinalProject/images/image00.jpg)
 #Trump2016 & #Hillary2016
 
 At first we collected 1500 tweets using Twitter API's and various packages in R. The tweets collected were then processed i.e. made ready for sentiment analysis by removing spaces, hyperlinks, punctuations and other unnecessary content. The final result is displayed in Fig. 18. and Fig. 19.
@@ -274,23 +275,13 @@ Comparing Hillary Clinton's and Donald Trump's social network indicates Donald T
 
 References&nbsp;
 
-Soumitra Dutta, Matthew Fraser. 2008 Barack Obama and the Facebook Election, US News, Retrived 01/17/2016 from http://www.usnews.com/opinion/articles/2008/11/19/
+Soumitra Dutta, Matthew Fraser. 2008 Barack Obama and the Facebook Election, US News, Retrived 01/17/2016 from http://www.usnews.com/opinion/articles/2008/11/19/barack-obama-and-the-facebook-election
 
-barack-obama-and-the-facebook-election
+Reuters, September 2015. How Twitter '$Cashtags' are changing US presidential campaigns,The Times of India Retrived 01/17/2016 from http://timesofindia.indiatimes.com/tech/tech-news/How-Twitter-Cashtags-are-changing-US-presidential-campaigns/articleshow/48986972.cms
 
-Reuters, September 2015. How Twitter '$Cashtags' are changing US presidential campaigns,
+R. Kay Green, 2015. The Game Changer: Social Media and the 2016 Presidential Election. Huffpost Politics. Retrived 01/17/2016 from http://www.huffingtonpost.com/r-kay-green/the-game-changer-social-m_b_8568432.html.
 
-The Times of India Retrived 01/17/2016 from http://timesofindia.indiatimes.com/tech/
-
-tech-news/How-Twitter-Cashtags-are-changing-US-presidential-campaigns/articleshow/48986972.cms
-
-R. Kay Green, 2015. The Game Changer: Social Media and the 2016 Presidential Election. Huffpost Politics. Retrived 01/17/2016 from http://www.huffingtonpost.com/r-kay-green/
-
-the-game-changer-social-m_b_8568432.html.
-
-[Drew Hendricks][24]. (May 2013) Complete History of Social Media: Then And Now, Small Business trends, Retrived 01/17/2016 from [http://smallbiztrends.com/2013/05/][25]
-
-[the-complete-history-of-social-media-infographic.html][26].
+[Drew Hendricks][24]. (May 2013) Complete History of Social Media: Then And Now, Small Business trends, Retrived 01/17/2016 from [http://smallbiztrends.com/2013/05/the-complete-history-of-social-media-infographic.html].
 
 Andrew Paul Williams , Kaye D. Trammell , Monica Postelnicu , Kristen D. Landreville &amp; Justin D. Martin (2005) Blogging and Hyperlinking: use of the Web to enhance viability during the 2004 US campaign, Journalism Studies, 6:2, 177-186, DOI: 10.1080/14616700500057262
 
@@ -314,38 +305,10 @@ Miller, P. R., Bobkowski, P. S., Maliniak, D., &amp; Rapoport, R. B. (2015). Tal
 
 Acknowledgment
 
-For analysis, open source python code 'Twecoll' was used to collect tweets and form a network from the nodes parsed from the tweets: [https://github.com/jdevoo/twecoll][27]
+For analysis, open source python code 'Twecoll' was used to collect tweets and form a network from the nodes parsed from the tweets: [https://github.com/jdevoo/twecoll]
 
-All the datasets mentioned in this paper and Gephi files can be downloaded from Github repository at this link: [https://github.com/Rameshb-umd/Social-Network-Analysis][28]
+All the datasets mentioned in this paper and Gephi files can be downloaded from Github repository at this link: [https://github.com/Rameshb-umd/Social-Network-Analysis]
 
-Apoorva Ajmani, Karan Kashyap, Ramesh Balasekaran
 
-[1]: https://www.google.com/url?q=https://github.com/Rameshb-umd/Social-Network-Analysis/&amp;sa=D&amp;ust=1454381107668000&amp;usg=AFQjCNFh-qJYzpLRWPaiKF_-ucacOCXnVw
-[2]: http://rameshbalasekaran.com/images/image02.png ""
-[3]: http://rameshbalasekaran.com/images/image05.png ""
-[4]: http://rameshbalasekaran.com/images/image03.png ""
-[5]: http://rameshbalasekaran.com/images/image11.png ""
-[6]: http://rameshbalasekaran.com/images/image07.png ""
-[7]: http://rameshbalasekaran.com/images/image01.png ""
-[8]: http://rameshbalasekaran.com/images/image08.png ""
-[9]: http://rameshbalasekaran.com/images/image17.png ""
-[10]: http://rameshbalasekaran.com/images/image16.png ""
-[11]: http://rameshbalasekaran.com/images/image10.png ""
-[12]: http://rameshbalasekaran.com/images/image12.png ""
-[13]: http://rameshbalasekaran.com/images/image15.png ""
-[14]: http://rameshbalasekaran.com/images/image14.png ""
-[15]: http://rameshbalasekaran.com/images/image04.png ""
-[16]: http://rameshbalasekaran.com/images/image09.png ""
-[17]: http://rameshbalasekaran.com/images/image06.png ""
-[18]: https://www.google.com/url?q=https://twitter.com/libertarianWE&amp;sa=D&amp;ust=1454381107742000&amp;usg=AFQjCNEGHQlvWwTVQrpQIlj6pQBdzHAr8g
-[19]: https://www.google.com/url?q=https://twitter.com/libertarianWE&amp;sa=D&amp;ust=1454381107743000&amp;usg=AFQjCNF9DDsk59tZdYiyTeWpBqH3mjzT9w
-[20]: https://www.google.com/url?q=https://twitter.com/KevniChang&amp;sa=D&amp;ust=1454381107743000&amp;usg=AFQjCNFHz8ednFMUoeSF89HeSVNM7kVYQw
-[21]: http://rameshbalasekaran.com/images/image18.png ""
-[22]: http://rameshbalasekaran.com/images/image13.jpg ""
-[23]: http://rameshbalasekaran.com/images/image00.jpg ""
-[24]: https://www.google.com/url?q=http://smallbiztrends.com/author/drew-hendricks&amp;sa=D&amp;ust=1454381107761000&amp;usg=AFQjCNGSSht0pkRBAuufc_T-BLvSpQACMA
-[25]: https://www.google.com/url?q=http://smallbiztrends.com/2013/05/the-complete-history-of-social-media-infographic.html&amp;sa=D&amp;ust=1454381107762000&amp;usg=AFQjCNF0MGePOKTxUSaQPb4ddqYRuaXg3w
-[26]: https://www.google.com/url?q=http://smallbiztrends.com/2013/05/the-complete-history-of-social-media-infographic.html&amp;sa=D&amp;ust=1454381107763000&amp;usg=AFQjCNFGTeg_VlyX7UGFJNGAjOl6tjgn4A
-[27]: https://www.google.com/url?q=https://github.com/jdevoo/twecoll&amp;sa=D&amp;ust=1454381107781000&amp;usg=AFQjCNFxjJH9qbiOij9MgpxuSbhkq0RG-Q
-[28]: https://www.google.com/url?q=https://github.com/Rameshb-umd/Social-Network-Analysis&amp;sa=D&amp;ust=1454381107782000&amp;usg=AFQjCNFM3WRW60iDgo0OijC4WnC3zay46Q
+
   
