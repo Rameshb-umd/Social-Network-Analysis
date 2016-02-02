@@ -1,6 +1,4 @@
 
-[Source](http://rameshbalasekaran.com/FinalProject/FinalProject.html "Permalink to ")
-
 Social Network Analysis of 2016 US Presidential Election Candidates&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 Social Network Analysis of 2016 US Presidential Election Candidates
@@ -54,7 +52,7 @@ In order to answer our first research question, we conducted an online survey to
 
 1. How would people like to be informed about global news?
 
-![][2]
+![][http://rameshbalasekaran.com/FinalProject/images/image02.png]
 
 Fig. 1
 
@@ -62,7 +60,7 @@ Fig. 1
 
 2\. Which social media website do people visit frequently?
 
-![][3]&nbsp;
+![][http://rameshbalasekaran.com/FinalProject/images/image03.png]&nbsp;
 
 Fig. 2.
 
@@ -70,7 +68,8 @@ After the advent of social media, many people were hooked onto it and started us
 
 3\. How many Twitter users people generally follow?
 
-![][4]
+![][http://rameshbalasekaran.com/FinalProject/images/image04.png]
+
 
 Fig. 3.
 
@@ -78,7 +77,7 @@ This result was expected, almost 80% of the people who took our survey follow le
 
 4\. Visitors of social media site - consumer or producer of information?
 
-![][5]
+![][http://rameshbalasekaran.com/FinalProject/images/image05.png]
 
 Fig. 4.
 
@@ -86,7 +85,7 @@ In this question we try to categorize our sample into two groups ie Consumer of 
 
 5\. Does social media influence people's decision?
 
-![][6]
+![][http://rameshbalasekaran.com/FinalProject/images/image06.png]
 
 Fig. 5.
 
@@ -121,7 +120,7 @@ Average Degree :&nbsp; 7.946
 
 On January 18th, 2016, NodeXL was used to extract tweets with the keyword, 'RealDonaldTrump'. Limit of 10,000 tweets was set and a network was created with people who mentioned '@realdonaldtrump' in their tweets. The network was then loaded and visualized in Gephi. To remove users who are loosely bound in the network, nodes with degree range &lt; 6 were filtered to result in the above network. The directed edges between the nodes represent that the users mentioned each other or replied to each other in their tweets. The node size was adjusted as per the betweenness centrality and the color was set as per the modularity class.
 
-![][7]
+![][http://rameshbalasekaran.com/FinalProject/images/image07.png]
 
 Fig. 6. Donald Trump's Network showing the information propagation
 
@@ -162,7 +161,7 @@ Average Degree : 4.64 &nbsp;
 
 On January 18th, 2016, NodeXL was used to extract tweets with keyword, 'hillaryclinton'. Limit of 10,000 tweets was set and a network was created with people who mentioned '@hillaryclinton' in their tweets. The network was then loaded and visualized in Gephi. To remove users who are loosely bound in the network, nodes with degree range &lt; 3 were filtered to result in the above network. The directed edges between the nodes represent that the users mentioned each other or replied to each other in their tweets. The node size was adjusted as per the betweenness centrality and the color was set as per the modularity class.
 
-![][8]
+![][http://rameshbalasekaran.com/FinalProject/images/image08.png]
 
 Fig. 7. Hillary Clinton's Network showing the Information propagation
 
@@ -217,11 +216,12 @@ Analysis:
 
 Donald Trump's Twitter feed acts as a critical way of communication with his 5.81M followers. This intense network collaboration is evident in Fig. 8. Such kind of network enables rapid communication across all the followers of Trump. Follower's profile consists largely of retweets. 'Retweeting' assists in social interaction, expanding the network and contributes immensely in solidifying Trump's brand. Such a strongly connected social network is a rare find in social network analysis, in order to further confirm that this network was not formed by biased nodes with the maximum edge the whole process was repeated twice with random 1000 nodes and the results were consistent. The degree distribution chart also followed Power law distribution indicating the results were not an anomaly.
 
-&nbsp;![][10]
+&nbsp;![][http://rameshbalasekaran.com/FinalProject/images/image10.png]
+
 
 Fig. 9. Degree Distribution of Donald Trump Social Network (Random Sampling)
 
-![][11]
+![][http://rameshbalasekaran.com/FinalProject/images/image11.png]
 
 Fig. 10. Social Network of Active Donald Trump Followers (Filtered)
 
@@ -229,17 +229,18 @@ For the above visualization, nodes with degree &lt; 100 have been filtered out t
 
 Below figures shows the analysis of the three communities. Random nodes from green, blue and &nbsp;purple community were selected from the network and their bio, followers count and number of tweets and recent tweets from Twitter were analysed to understand the three communities in the network.
 
-&nbsp;![][12]
+![][http://rameshbalasekaran.com/FinalProject/images/image12.png]
 
 Fig. 11. Green Community Analysis (Twitter Account | Bio | Followers Count | Tweets Count)
 
-![][13]Fig. 12. Blue Community Analysis (Twitter Account | Bio | Followers Count | Tweets Count)
+![][http://rameshbalasekaran.com/FinalProject/images/image13.png]
+Fig. 12. Blue Community Analysis (Twitter Account | Bio | Followers Count | Tweets Count)
 
-![][14]
+![][http://rameshbalasekaran.com/FinalProject/images/image14.png]
 
 Fig. 13. Purple Community Analysis (Twitter Account | Bio | Followers Count | Tweets Count)
 
-![][15]
+![][http://rameshbalasekaran.com/FinalProject/images/image15.png]
 
 Fig. 14. Social network of active Donald Trump followers (Degree &lt; 156 filtered)
 
@@ -247,7 +248,7 @@ To analyze the network further, the network was further filtered and visualized.
 
 Egocentric network analysis of Hillary Clinton.
 
-![][16]
+![][http://rameshbalasekaran.com/FinalProject/images/image16.png]
 
 Fig. 15. Egocentric network of Hillary Clinton in Donald Trump's Network
 
@@ -278,7 +279,7 @@ Average Degree :&nbsp;43.217
 
  |
 
-![][17]
+![][http://rameshbalasekaran.com/FinalProject/images/image17.png]
 
 Fig. 16. Social Network of active Hillary Clinton followers
 
@@ -292,7 +293,7 @@ Analysis:
 
 From the above visualization it can be clearly seen that all the communities are internally well connected. The green community is primarily dominated by Republicans, like '[libertarianWE',][18][&nbsp;'][19][KevniChang][20]' etc. The purple community primarily consists of Hillary Clinton's supporters, like 'Hillary_HQ', '777sjr', 'renayws' etc. Blue community consists of Bernie supporters, like 'bernieartists', 'adamnguy'&nbsp;etc. The purple and blue community are much more closely knit as compared to the green community which is apparent as they support the Democrat party. 'stylistkavin', 'hillary2016pres' and 'hillaryclinton' are the most prominent users in the purple community and forms a clique within themselves indicating they are strongly connected.
 
-![][21]
+![][http://rameshbalasekaran.com/FinalProject/images/image21.png]
 
 Fig. 17. Egocentric&nbsp;network analysis of Donald J. Trump in Hillary Clinton's network
 
