@@ -52,7 +52,7 @@ In order to answer our first research question, we conducted an online survey to
 
 1. How would people like to be informed about global news?
 
-![][http://rameshbalasekaran.com/FinalProject/images/image02.png]
+![](http://rameshbalasekaran.com/FinalProject/images/image02.png)
 
 Fig. 1
 
