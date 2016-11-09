@@ -11,11 +11,11 @@ Karan Kashyap
 
 Ramesh Balasekaran
 
-GitHub Repository : [https://github.com/Rameshb-umd/Social-Network-Analysis/][1]
+GitHub Repository : [https://github.com/aajmani/Social-Network-Analysis/][1]
 
 * * *
 
-Introduction and Background
+Introduction and Background 
 
 Social Media's presence is ubiquitous today. Its extent can be realised with Facebook's 1.55 billion monthly active users. As Social Media grew from its embryonic state in 2004, it gradually transformed into a communication platform on which governance, news, protests and friendships originated and sustained. Around the world, social media consistently plays a major role from managing natural disasters to winning election campaigns. As many political candidates started using social media to mobilize and influence voters, the social media companies also started to realize the opportunities of using data created in this communication platform to predict and understand the outcome of an election campaign. With less than a year remaining for the US Presidential Election 2016, Election campaigns are in full swing and yet again social media is poised to become a game changer. Social Media's major role came into effect during Obama's 2008 presidential victory, It was not a surprise that one of Obama's key strategist was Facebook co-founder Chris Hughes (Soumitra Dutta &amp; Matthew Fraser, 2008). Even in current 2016 US presidential election social media's role has been noteworthy. Twitter has rolled out special features like $Cashtags to aid candidates in raising funds for their election campaigns (Reuters, 2015). Bernie Sanders who started the year 2015 with 0 followers in Twitter now has almost 1.4 million followers, more than triple the followers of Jeb Bush and Chris Christie combined. Social media's excessive use as a part these campaign strategy is due to the fact that it is able to reach a variety of audience and get the attention of the millennials.
 
