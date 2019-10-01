@@ -11,8 +11,6 @@ Karan Kashyap
 
 Ramesh Balasekaran
 
-GitHub Repository : [https://github.com/aajmani/Social-Network-Analysis/][1]
-
 * * *
 
 Introduction and Background 
